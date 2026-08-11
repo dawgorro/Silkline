@@ -1,6 +1,6 @@
 import { zeroAddress, type Address } from 'viem'
 
-const deployedAddress = ''
+const deployedAddress = '0x63DcF3a6050Cf80D785Fc4105c13B38ac60C0F0b'
 const configuredAddress = import.meta.env.VITE_SILKLINE_CONTRACT_ADDRESS
 const activeAddress = configuredAddress || deployedAddress
 
